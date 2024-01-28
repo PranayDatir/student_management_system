@@ -1,9 +1,10 @@
 {
-  "hosting": [
-    {
-      "target": "firebase-angular-crud",
-      "source": ".",
-      "frameworksBackend": {}
-    }
-  ]
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
 }
