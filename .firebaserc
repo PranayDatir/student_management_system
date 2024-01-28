@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "studtnt-management-system": {
+      "hosting": {
+        "firebase-angular-crud": [
+          "studtnt-management-system"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "studtnt-management-system"
+  }
+}
